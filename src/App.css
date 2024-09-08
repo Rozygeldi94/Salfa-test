@@ -1,0 +1,104 @@
+@font-face {
+  font-family: NotoColorEmojiLimited;
+  unicode-range: U+1F1E6-1F1FF;
+  src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.css-502kp3 {
+  color: rgb(12, 81, 136) !important;
+}
+.css-1u2cnya::first-letter {
+  text-transform: uppercase;
+}
+
+#scrollbar::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+#scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: #6295d7;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(34, 9, 57, 0.4) 50%,
+    transparent,
+    transparent
+  );
+}
+
+.pagenation-container {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+.pagenation-page-link {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.pagenation-container .selected,
+.pagenation-container .next,
+.pagenation-container .previous {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #f5f5f5;
+  font-weight: 600;
+}
+.pagenation-container .selected {
+  background: #4b558f;
+}
+
+.previous,
+.next {
+  background: #6e79d4;
+}
+
+.ql-editor {
+  max-width: 370px;
+}
+.ql-snow {
+  border: 1px solid #3182ce !important;
+}
+.chakra-breadcrumb__list {
+  flex-wrap: wrap;
+}
+.swiper-wrapper {
+  padding-bottom: 30px !important;
+}
+.swiper-pagination {
+  bottom: 12px !important;
+}
+
+.css-efhinx {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.click-btn {
+  transition: all 0.35s;
+}
+.chakra-radio__control,
+.chakra-checkbox__control {
+  border-color: #aab0d0 !important;
+}
